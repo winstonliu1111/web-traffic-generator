@@ -49,6 +49,17 @@ Run the generator:
 python gen.py
 ```
 
+## Usage (Docker)
+Create your docker image:
+```
+make all
+```
+
+Run the generator:
+```
+docker run -d --rm web-traffic-generator
+```
+
 
 ## Troubleshooting and debugging
 To get more deets on what is happening under the hood, change the Debug variable in `config.py` from `False` to `True`. This provides the following output...
